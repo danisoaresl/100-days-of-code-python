@@ -62,15 +62,32 @@
 
 # print(round(bmi, 2))
 
-score = 0
-height = 1.8
-is_winning = True
+# score = 0
+# height = 1.8
+# is_winning = True
 
-print(F"Your score is = {score}")
+# print(f"Your score is = {score}, your height is {height}. You are winning is {is_winning}")
 
 # User scores a point
-score += 1
-print(score)
+# score += 1
+# print(score)
 
 # f-strings
-print("Your score is " + str(score))
+# print("Your score is " + str(score))
+
+# 12% = 12 / 100 = 0.12
+
+# print(150 * 1.12 / 5)
+
+print("Welcome to the tip calculator!")
+bill = float(input("What was the total bill? $"))
+tip = int(input("What percentage tip would you like to give? 10 12 15"))
+people = int(input("How many people to split the bill? "))
+# bill_with_tip = bill * (1 + tip / 100) 
+# print(bill_with_tip)
+tip_as_percent = tip / 100
+total_tip_amount = bill * tip_as_percent
+total_bill = bill + total_tip_amount
+bill_per_person = total_bill / people
+final_amount = round(bill_per_person, 2)
+print(f"Each person should pay: ${final_amount} ")
