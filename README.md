@@ -23,3 +23,11 @@ This repository documents my daily progress, projects, and practice scripts as I
 
 ## 📁 Folder Structure
 
+├── day01.py
+├── day02.py
+├── day03.py
+├── README.md
+└── ...
+
+
+
