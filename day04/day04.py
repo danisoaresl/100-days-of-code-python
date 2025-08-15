@@ -28,10 +28,27 @@
 
 ## LIST
 
-states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Texas", "Florida"]
+# states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Texas", "Florida"]
 
-print(states_of_america[-1])
+# print(len(states_of_america))
+
+# print(states_of_america[5])
+
+# states_of_america[1] = "Pennsylvania"
+
+# states_of_america.append("Angelaland")
+
+# states_of_america.extend(["Angelaland", "Gustavo Nascimento"])
+
+# print(states_of_america)
+
+# num_of_states = len(states_of_america) # 50 -> 49
+
+# print (states_of_america[num_of_states -1])
 
 
+fruits = ["banana", "maçã", "laranja", "mamão", "manga", "melancia", "melão", "pera", "pêssego", "tangerina", "uva", "goiaba"]
+vegetables = ["spinach", "kale", "tomatoes", "celery", "potatoes"]
 
-
+dirty_dozen = [fruits, vegetables]
+print(dirty_dozen)
